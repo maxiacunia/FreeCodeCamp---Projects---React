@@ -8,7 +8,7 @@ import {
     faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters/index'
+// import AnimatedLetters from '../AnimatedLetters/index'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
@@ -20,13 +20,13 @@ const About = () => {
         <>
             <div className="container about-page">
                 <div className="text-zone">
-                    <h1>
+                    {/* <h1>
                         <AnimatedLetters
                             letterClass={letterClass}
                             strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
                             idx={15}
                         />
-                    </h1>
+                    </h1> */}
                     <p>
                         I'm a very ambitious front-end developer looking for a role in an
                         established IT company with the opportunity to work with the latest
