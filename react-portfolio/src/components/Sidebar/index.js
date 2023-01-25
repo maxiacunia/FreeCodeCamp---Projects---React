@@ -1,4 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
+import { useState } from 'react';
 import './index.scss'
 import LogoS from '../../assets/images/logo-m.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
@@ -21,6 +22,8 @@ import {
 
 const Sidebar = () => {
 
+    const [showNav, setShowNav] = useState(false);
+
     return (
         <div className='nav-bar'>
             <Link className='logo' to='/'>
@@ -36,6 +39,14 @@ const Sidebar = () => {
                 </NavLink>
                 <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
                     <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
+                </NavLink>
+                <NavLink
+                    activeclassname="active"
+                    className="portfolio-link"
+                    to="/portfolio"
+                    onClick={() => setShowNav(false)}
+                >
+                    <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
                 </NavLink>
             </nav>
             <ul>

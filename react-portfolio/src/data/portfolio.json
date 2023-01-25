@@ -1,0 +1,46 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/images/one.png",
+            "title": "Countries App",
+            "description": "React, Node JS, Postgres, CSS",
+            "url": "https://countries-five-coral.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/images/two.png",
+            "title": "Booking App",
+            "description": "React, Node JS, Tailwind, Postgres",
+            "url": "https://deploy-pf.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/images/three.png",
+            "title": "Clima App",
+            "description": "React, Css",
+            "url": "http://google.com"
+        },
+        {
+            "cover": "/portfolio/images/four.png",
+            "title": "Quote generator",
+            "description": "React, Css",
+            "url": "https://free-code-camp-projects-react-8x42.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/images/five.png",
+            "title": "To do App",
+            "description": "React, CSS",
+            "url": "https://free-code-camp-projects-react-mexw.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/images/six.png",
+            "title": "Calculadora APP",
+            "description": "React, Css",
+            "url": "https://calculadora-react-eosin.vercel.app/"
+        },
+        {
+            "cover": "/portfolio/images/seven.png",
+            "title": "Contador de clics APP",
+            "description": "React, Css",
+            "url": "https://contador-clics-react.vercel.app/"
+        }
+    ]
+}
